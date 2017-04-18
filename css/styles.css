@@ -1,6 +1,7 @@
 h1 {
   font-family: fantasy;
   font-size: 40px;
+  color: white;
 }
 li {
   font-size: 30px;
@@ -10,6 +11,15 @@ li {
 }
 
 a {
-  color: black;
+  color: white;
   cursor: crosshair;
+}
+
+body {
+  /*background-color: orange;*/
+  background-image: url(http://designwoop.com/images/posts/links-1/noupe-bg.jpg);
+}
+
+p {
+  color: white;
 }
