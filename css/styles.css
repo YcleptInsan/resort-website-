@@ -7,17 +7,28 @@ li {
   font-size: 30px;
   font-style: normal;
   font-weight: bold;
-
+  line-height: 50px;
 }
 
 a {
   color: white;
-  cursor: crosshair;
+  cursor: grab;
+  text-decoration: none;
+
+
+}
+a:hover {
+  color: yellow;
+  background-color: black;
+  border: 2px solid white;
+  padding: 5px;
 }
 
 body {
   /*background-color: orange;*/
   background-image: url(http://designwoop.com/images/posts/links-1/noupe-bg.jpg);
+  text-align: center;
+  list-style: none;
 }
 
 p {
